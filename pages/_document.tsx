@@ -7,7 +7,12 @@ export default function Document() {
         {/*  Core Style CSS */}
         <link rel="stylesheet" href="css/core-style.css" />
         <link rel="stylesheet" href="style.css" />
-
+        {/* bootstarp  */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         {/* Responsive CSS */}
         <link href="css/responsive.css" rel="stylesheet" />
         {/* <!-- jQuery (Necessary for All JavaScript Plugins) --> */}

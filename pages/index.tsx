@@ -3,7 +3,16 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 // import styles from "@/styles/Home.module.css";
 import NavBar from "../components/nav-bar/navbar";
-import DiscountArea from "./../components/discount-area/discount-area";
+import DiscountArea from "../components/discount-area/discount-area";
+import WelcomeSlide from "../components/Welcome-slide/welcome-slide";
+import TopCategoryArea from "../components/top-category-area/top-category-area";
+import HeaderArea from "../components/nav-bar/header-area/header-area";
+import NewArrivals from "./../components/new-arrivals/new-arrivals";
+import QuickView from "../components/quick-view/quickview";
+import OfferArea from "../components/offer-area/offer-area";
+import Testimonial from "../components/testimonials/testimonial";
+import Footer from "../components/footer/footer";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -17,7 +26,17 @@ export default function Home() {
       </Head>
       <main>
         <NavBar />
-        <DiscountArea />
+        <div id="wrapper">
+          <HeaderArea />
+          <DiscountArea />
+          <WelcomeSlide />
+          <TopCategoryArea />
+          <NewArrivals />
+          <QuickView />
+          <OfferArea />
+          <Testimonial />
+          <Footer />
+        </div>
       </main>
     </>
   );

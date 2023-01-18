@@ -22,10 +22,10 @@ const HeaderArea = () => {
                   <div className="header-cart-menu d-flex align-items-center ml-auto">
                     {/* Cart Area */}
                     <div className="cart">
-                      <Link href="/" id="header-cart-btn" target="_blank">
+                      <a href="/" id="header-cart-btn" target="_blank">
                         <span className="cart_quantity">2</span>
                         <i className="ti-bag" /> Your Bag $20
-                      </Link>
+                      </a>
                       {/* Cart List Area Start */}
                       <ul className="cart-list">
                         <li>
